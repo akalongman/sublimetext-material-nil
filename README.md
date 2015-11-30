@@ -82,11 +82,11 @@ Activating
 ------------------------------------------------------------------------
 
 In your `Settings - User` file, set the
-`"theme"` key to `"Material Nil.sublime-theme"`, like
+`"theme"` key to `"Material-Nil.sublime-theme"`, like
 so:
 
     {
-        "theme": "Material Nil.sublime-theme"
+        "theme": "Material-Nil.sublime-theme"
     }
 
 Assuming you have then installed it correctly, it should show the theme.
