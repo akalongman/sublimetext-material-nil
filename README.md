@@ -9,6 +9,12 @@ This theme is based on [Nil Theme](https://github.com/nilium/st2-nil-theme) and
 [Material Theme](https://github.com/equinusocio/material-theme)
 
 
+![screenshot1](http://i.imgur.com/iROYmiB.png)
+![screenshot2](http://i.imgur.com/HtNXIUg.png)
+![screenshot3](http://i.imgur.com/g9UhY7Q.png)
+
+
+
 Options
 ------------------------------------------------------------------------
 
@@ -93,3 +99,10 @@ Assuming you have then installed it correctly, it should show the theme.
 Due to what I assume is settings from previous themes surviving, you may
 wish to restart Sublime Text as well, but otherwise you should be good
 to go.
+
+Also you can use my specific color scheme LongishDark:
+
+
+    {
+        "color_scheme": "Packages/Material Nil/schemes/LongishDark.tmTheme",
+    }

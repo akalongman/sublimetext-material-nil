@@ -1,0 +1,80 @@
+Sublime Text 2/3 Material Nil Theme
+https://github.com/akalongman/sublimetext-material-nil
+
+********************************************************************************
+
+
+To activate this awesome theme, add in your current settings this code:
+
+{
+    "theme": "Material-Nil.sublime-theme",
+}
+
+
+Also you can use my specific color scheme LongishDark:
+
+{
+    "color_scheme": "Packages/Material Nil/schemes/LongishDark.tmTheme",
+}
+
+
+MAKE SURE TO RESTART SUBLIME AFTER ACTIVATING THE THEME
+
+********************************************************************************
+
+Options
+------------------------------------------------------------------------
+
+There are a handful of options you can use to customize the appearance
+of both the Nil and Ayin themes. All options are boolean values and
+disabled by default. Their keys and descriptions follow:
+
+* `material_nil_highlight_modified_tabs` — If true, will display an orange bar under
+  tabs with modified buffers.
+* `material_nil_sidebar_folders` — If true, will display a folder icon beside folders
+  in the sidebar instead of a disclosure triangle. Sidebar folders are
+  off by default.
+* `material_nil_colored_folder_glyphs` — If true, will tint either folder icons or
+  disclosure triangles in the sidebar (only the sidebar) purple.
+* `material_nil_disable_colored_group_labels` — If true, will disable the colored
+  group labels. Group labels are the things that say "Group 1" and 2 and
+  so on in the sidebar. They're only visible if you have open files
+  shown. Colored group labels are enabled by default.
+* `material_nil_disable_colored_folder_labels` — If true, will disable the colored
+  folder labels in the sidebar. This is independent of group label
+  coloring. Colored folder labels are enabled by default.
+* `material_nil_disable_fileicons` — If true, will disable the colored
+  folder labels in the sidebar. This is independent of group label
+  coloring. Colored folder labels are enabled by default.
+
+
+To set any of these properties, place them and their values in your user
+preferences file.
+
+
+
+
+********************************************************************************
+
+
+Recommended UI and font settings:
+I suggest you to use this custom settings for a better experience with the theme:
+{
+    "overlay_scroll_bars": "enabled",
+    "font_options": [ "gray_antialias" ], // On retina Mac
+    "always_show_minimap_viewport": true,
+    "indent_guide_options":
+    [
+        "draw_normal",
+        "draw_active"
+    ],
+    "caret_style": "phase",
+    "highlight_line": true,
+    "margin": 4,
+    "bold_folder_labels": true,
+    "material_nil_colored_folder_glyphs": true,
+    "material_nil_highlight_modified_tabs": true,
+    "material_nil_sidebar_folders": true
+}
+
+********************************************************************************
